@@ -1,0 +1,107 @@
+.dark_mode{
+    background-color: black;
+    
+    border-color: gray;
+    transition: 2s;
+}
+
+.dark_mode h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 20px grey;
+    border-style: double;
+    margin: auto;
+    transition: 2s;
+}
+
+.dark_mode #superior{
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    color: white;
+    transition: 2s;
+}
+
+.dark_mode #experiencias{
+    text-align: left;
+    margin: 10px;
+    color: white;
+    transition: 2s;
+}
+
+.dark_mode h2{
+    background-color: gray;
+    margin: 10px 50px 0px 50px;
+    border-style: solid;
+    text-align: center;
+    color: black;
+    transition: 2s;
+}
+
+.dark_mode #descripcion{
+    text-align: left;
+    margin: 10px;
+    display: none;
+    color: white;
+    transition: 2s;
+}
+
+.dark_mode #cuentas{
+    text-align: left;
+    color: white;
+    transition: 2s;
+}
+
+.dark_mode div{
+    background-color:black;
+    border-style: solid;
+    border-color: gray;
+    margin: 0px 50px 10px 50px;
+    transition: 2s;
+}
+div .caja1{
+    
+    margin: 10px 100px 10px 100px;
+}
+.dark_mode .botones{
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    color: black;
+    transition: 2s;
+}
+
+.fix{
+    bottom: 0;
+    position: sticky;
+}
+input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    appearance: none;    
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+} 
+input[type="checkbox"]:checked {
+    background-color: white;
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: gray;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.7s ease;
+}
+input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+}
+
