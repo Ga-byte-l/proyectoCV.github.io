@@ -1,1 +1,0 @@
-# proyectoCV.github.io
